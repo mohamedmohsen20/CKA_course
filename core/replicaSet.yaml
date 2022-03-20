@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: MYAPP
+  namespace:  default
   labels:
     app: MYAPP
 spec:
